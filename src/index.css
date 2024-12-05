@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10% 45% 35% 10%;
+    height: 100vh;
+}
+
+.header {
+    background-color: aquamarine;
+
+    
+}
+
+.imatge {
+    background-color: blue;
+
+
+}
+
+.article {
+    background-color: cadetblue;
+
+
+}
+
+.footer {
+    background-color: cornflowerblue;
+
+    display: grid;
+    grid-template-columns: 25% 1fr 1fr 1fr 25%;
+}
