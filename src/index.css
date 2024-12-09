@@ -2,33 +2,39 @@ body {
     margin: 0;
 }
 
-.container {
-    display: grid;
-    grid-template-rows: 10% 45% 35% 10%;
-    height: 100vh;
-}
-
 .header {
-    background-color: aquamarine;
-
-    
+    background-color: #bbbbbb;
+    padding: 20px;
+    text-align: center;
 }
 
-.imatge {
-    background-color: blue;
-
-
+.header a {
+    background-color: #333;
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 4px;
 }
 
-.article {
-    background-color: cadetblue;
-
-
+.header a:hover {
+    background-color: orangered;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
 }
 
-.footer {
-    background-color: cornflowerblue;
+nav ul li {
+    margin: 0 10px;
+}
 
-    display: grid;
-    grid-template-columns: 25% 1fr 1fr 1fr 25%;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.imatge img {
+    max-width: 100%;
+    height: auto;
 }
