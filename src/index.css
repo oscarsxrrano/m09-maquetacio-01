@@ -1,9 +1,12 @@
+/* Body -------------------------------------------------- */
 body {
     margin: 0;
 }
 
+
+/* Header -------------------------------------------------- */
 .header {
-    background-color: #bbbbbb;
+    background-color: #dfdfdf;
     padding: 20px;
     text-align: center;
 }
@@ -11,7 +14,9 @@ body {
 .header a {
     background-color: #333;
     color: aliceblue;
-    padding: 2px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 4px;
 }
 
@@ -34,7 +39,34 @@ nav ul li a {
     color: #333;
 }
 
+/* Imatge -------------------------------------------------- */
 .imatge img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    display: block;
+}
+
+/* Article -------------------------------------------------- */
+.article {
+    background-color: #dfdfdf;
+    padding: 20px;
+    text-align: center;
+}
+
+.article h2 {
+    color: #e54c08;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+/* Footer -------------------------------------------------- */
+.footer {
+    background-color: #dfdfdf;
+    padding: 20px;
+    text-align: center;
 }
