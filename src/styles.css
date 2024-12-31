@@ -1,0 +1,109 @@
+/* Body -------------------------------------------------- */
+body {
+    margin: 0;
+    background-color: #dfdfdf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid; 
+    justify-items: center;
+    align-items: center;   
+    background-color: #dfdfdf;
+    height: 100vh; 
+    margin: 0;
+}
+
+/* Header -------------------------------------------------- */
+.header {
+    background-color: #dfdfdf;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header a {
+    background-color: #333;
+    color: aliceblue;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: orangered;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Footer -------------------------------------------------- */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #dfdfdf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    align-items: center; 
+}
+
+.footer-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: smaller;
+}
+
+.footer-section img {
+    max-width: 50px; 
+    margin: 5px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    color: #e54c08;
+    margin-bottom: 10px;
+}
+
+.botones {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-section span, .footer-section p {
+    font-size: 14px;
+}
+
+.footer-section div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-section div img {
+    max-width: 30px;
+    max-height: 30px; 
+}
+
+.orange {
+    color: #e54c08  ;
+}
